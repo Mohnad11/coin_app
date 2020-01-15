@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+#appBody{
+  background-color: #d9e0d5;
+}
+#appMenuDiv{
+  width:30%;
+  height:45px;
+  margin:auto;
+  border:1px solid;
+  border-radius:15px;
+  margin-top:50px
+}
+.menuItem{
+  display:inline-block;
+  width:48%;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+.selectedMenuItem{
+  border-bottom: 3px solid #ee9940 ;
+
+}
+.menuLinkButton{
+  color:#000;
+  text-decoration:none;
+}
